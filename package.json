@@ -1,0 +1,39 @@
+{
+  "name": "nail-atelier",
+  "version": "1.0.0",
+  "description": "Backend for Nail Atelier management system",
+  "main": "dist/sever/srv/server.js",
+  "scripts": {
+    "dev": "tsx watch sever/srv/server.ts",
+    "build": "tsc",
+    "db:seed:catalog": "tsx prisma/seed-catalog.ts",
+    "start": "node dist/sever/srv/server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "argon2": "^0.45.2",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.19.0",
+    "helmet": "^8.3.0",
+    "multer": "^2.5.0",
+    "nodemailer": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/argon2": "^0.14.1",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.19.0",
+    "@types/multer": "^2.3.0",
+    "@types/node": "^22.10.1",
+    "@types/nodemailer": "^8.0.2",
+    "prisma": "^6.19.3",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.2"
+  }
+}

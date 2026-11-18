@@ -1,0 +1,28 @@
+.na-admin { width: min(1440px, 100%); margin: 0 auto; padding: 24px clamp(12px, 3vw, 40px) 48px; color: #342a2a; background: #f7f1ea; }
+.na-admin header { background: #342a2a; color: #fffcf8; padding: 26px; border-radius: 12px; }
+.na-admin header a { color: #f6c5c0; text-decoration: underline; }
+.na-admin h1 { margin: 5px 0; font: 600 clamp(26px, 4vw, 42px) Georgia, serif; }
+.na-admin h2 { margin: 16px 0; font-size: 23px; font-weight: 600; }
+.na-admin h3 { margin-bottom: 10px; font-weight: 700; }
+.na-admin nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0; border-bottom: 1px solid #e8d4c9; padding-bottom: 12px; }
+.na-admin button, .na-admin input, .na-admin textarea, .na-admin select { padding: 6px 9px; border: 1px solid #c7aaa1; border-radius: 6px; color: inherit; background: #fffcf8; }
+.na-admin button { cursor: pointer; }
+.na-admin button:disabled { opacity: .55; cursor: not-allowed; }
+.na-admin .na-primary, .na-admin button.na-selected { color: #fffcf8; background: #342a2a; }
+.na-card, .na-table { background: #fffcf8; border: 1px solid #e8d4c9; border-radius: 10px; margin: 12px 0; }
+.na-card { padding: 16px; }
+.na-table { overflow: auto; }
+.na-table table { width: 100%; border-collapse: collapse; white-space: nowrap; }
+.na-table th, .na-table td { padding: 10px; text-align: left; border-bottom: 1px solid #eee2da; }
+.na-table th { background: #eddfd6; }
+.na-fields, .na-kpis { display: flex; flex-wrap: wrap; align-items: start; gap: 12px; }
+.na-fields label { display: grid; gap: 4px; font-size: 13px; }
+.na-fields .na-check { display: flex; align-items: center; }
+.na-fields select[multiple] { height: 74px; }
+.na-kpis > div { flex: 1 1 145px; }
+.na-kpis strong { display: block; font-size: 23px; }
+.na-images { display: flex; flex-wrap: wrap; gap: 10px; width: 100%; }
+.na-images > div { display: grid; gap: 4px; }
+.na-images img, .na-product img { width: 54px; height: 54px; object-fit: cover; border-radius: 6px; }
+.na-product { display: flex; align-items: center; gap: 8px; }
+.na-error { color: #9d231d; }
